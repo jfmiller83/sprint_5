@@ -5,7 +5,7 @@ import streamlit as st
 # Cabeçalho do aplicativo
 st.header("Análise de Dados de Anúncios de Vendas de Carros")
 
-car_data = pd.read_csv('C:\\Users\\User\\Desktop\\Data Science\\Tripleten\\sprint_5\\vehicles.csv') # lendo os dados
+car_data = pd.read_csv('vehicles.csv') # lendo os dados
 
 hist_button = st.button('Criar histograma') # criar um botão
      
